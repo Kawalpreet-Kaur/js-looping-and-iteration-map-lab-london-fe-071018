@@ -1,3 +1,3 @@
 // Code your solution in this file.
 
-['bobby', 'sammy', 'sally', 'annette', 'sarah', 'bobby'].map(function  lowerCaseDrivers)
+['bobby', 'sammy', 'sally', 'annette', 'sarah', 'bobby'].map(  lowerCaseDrivers)

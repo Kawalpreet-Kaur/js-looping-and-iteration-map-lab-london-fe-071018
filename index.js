@@ -31,7 +31,7 @@ function attributesToPhrase(drivers){
   return driver.map(drivers=>{
     let names =drivers.name;
     let homes=drivers.hometown;
-    return '${names} is from ${homes}'}
+    return `${names} is from ${homes}`}
     )
   
 }

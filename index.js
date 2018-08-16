@@ -28,8 +28,8 @@ return drivers.map(function(drivers){
 
 
 function attributesToPhrase(drivers){
-  return driver.map(
-    let driverDetails =drivers
+  return driver.map(drivers=>{
+    return '${drivers.name}'}
     )
   
 }

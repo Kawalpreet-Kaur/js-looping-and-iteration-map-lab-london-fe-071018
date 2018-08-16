@@ -2,4 +2,7 @@
 
 // const driver=['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby'
 
-function 
+function lowerCaseDrivers(){
+  return driver.map(rec=>)
+}
+

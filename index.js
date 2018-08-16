@@ -12,6 +12,6 @@ function nameToAttributes(drivers){
  drivers.map(drivers=>{
    let driverNames=drivers.split(" ");
    
-   return {firstName: driverNames[0],   lastName: driverNames[1]  }
+   return { 'firstName': driverNames[0],   'lastName': driverNames[1]  }
  }) 
 }

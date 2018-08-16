@@ -25,3 +25,8 @@ return drivers.map(function(drivers){
    return { 'firstName': driverNames[0],   'lastName': driverNames[1]  }
  }) 
 }
+
+
+function attributesToPhrase(drivers){
+  
+}

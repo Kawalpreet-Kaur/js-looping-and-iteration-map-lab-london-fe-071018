@@ -15,3 +15,13 @@ function lowerCaseDrivers(drivers){
 //   return { 'firstName': driverNames[0],   'lastName': driverNames[1]  }
 // }) 
 // }
+
+
+function nameToAttributes(drivers){
+ 
+return drivers.map(function(){
+   let driverNames=drivers.split(" ");
+   
+   return { 'firstName': driverNames[0],   'lastName': driverNames[1]  }
+ }) 
+}
